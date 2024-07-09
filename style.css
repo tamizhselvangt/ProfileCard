@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/v960-ning-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top {
+  width: 100%;
+  height: 50%;
+  background-color: palevioletred;
+}
+.card {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 1px 0px 2px 2px black;
+}
+.bottom {
+  width: 100%;
+  height: 50%;
+}
+.img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 50px;
+}
+.title {
+  padding: 20px;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.city {
+  font-size: 10px;
+  color: #6e6e6e;
+}
+
+.role {
+  font-size: 15px;
+  color: #6e6e6e;
+}
+
+.caer-2-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-2 {
+  width: 20%;
+  height: 30%;
+  text-align: center;
+  color: #6e6e6e;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: #abd8eb;
+}
